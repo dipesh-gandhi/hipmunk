@@ -11,9 +11,10 @@ var partners = ['Expedia', 'Orbitz', 'Priceline', 'Travelocity', 'United'];
 module.exports = class AirlinePartner {
 
    constructor() {
-      this.self = this;
+     //for later use
    }
 
+   //Search single airline provider, given name
    search(provider) {
      console.log('--> search invoked for', provider);
      return new Promise(function (fulfill, reject){
@@ -27,6 +28,7 @@ module.exports = class AirlinePartner {
      });
    }
 
+   //Search all configured providers, return is sorted by agony
    searchAll(){
 
      var self = this;
