@@ -9,5 +9,5 @@ Provides REST API to search all airline providers for flight information, sorted
 3) node server.js
     - Pass PORT env variable for custom port (default to 8000)
     - Pass SEARCH_URL env variable for custom scrapper url (default to http://localhost:9000/scrapers/)
-4) Invoke GET operation http://<host>:<port>/flights/search (e.g. http://localhost:8000/flights/search)
+4) Invoke GET operation http://host:port/flights/search (e.g. http://localhost:8000/flights/search)
 
